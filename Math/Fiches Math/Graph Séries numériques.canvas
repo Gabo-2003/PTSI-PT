@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"46f9ec8ff1224edd","x":-204,"y":-321,"width":250,"height":60,"type":"text","text":"Simplifier la somme partiel"},
+		{"id":"4f8560ae53ed9ae2","x":-204,"y":-222,"width":250,"height":60,"type":"text","text":"Séries telescopiques"},
+		{"id":"a849098d05e2beba","x":-204,"y":-442,"width":161,"height":60,"type":"text","text":"Exemple :"},
+		{"id":"4b2f7168d98f2aa9","x":111,"y":-489,"width":250,"height":60,"type":"text","text":"Géometriques"},
+		{"id":"33ac2755257ceffc","x":111,"y":-412,"width":250,"height":60,"type":"text","text":"Exponentielle"},
+		{"id":"e7933ae060ece90b","x":-638,"y":-282,"width":250,"height":60,"type":"text","text":"Convergence + somme"},
+		{"id":"e7097f51edb8f50a","x":-638,"y":68,"width":250,"height":60,"type":"text","text":"Nature : convergente ou divergente ?"},
+		{"id":"c445c7c5e9d4b438","x":-204,"y":22,"width":342,"height":76,"type":"text","text":"Si $\\lim u_{n} \\neq 0$  [[Séries numériques#Propriétés|grossièrement divergente]]. "},
+		{"id":"4057bb31f1d67841","x":146,"y":73,"width":310,"height":87,"type":"text","text":"[[Séries numériques#Série de Riemann|Série de Riemann]] $\\displaystyle (\\sum \\frac{1}{n^\\alpha})$ "},
+		{"id":"f8ff337b84e76061","x":146,"y":190,"width":250,"height":60,"type":"text","text":"Equivalente"},
+		{"id":"552162f3b0d253e0","x":146,"y":280,"width":331,"height":50,"type":"text","text":"Critère majoration / minoration "},
+		{"id":"9201092d2afc1425","x":146,"y":360,"width":250,"height":60,"type":"text","text":"[[Séries numériques#Comparaison série-intégral|Comparaison série / intégrale]]"},
+		{"id":"37e00e8b682d68e5","x":-204,"y":190,"width":250,"height":60,"type":"text","text":"[[Séries numériques#Séries à termes positifs $( forall n in mathbb{N}, u_{n} geq 0)$|à termes positives]]"},
+		{"id":"2d359850c0de960e","x":-204,"y":496,"width":250,"height":60,"type":"text","text":"$u_{n}$ pas de signe constante"},
+		{"id":"cb33e3a8e4f373d7","x":146,"y":471,"width":343,"height":50,"type":"text","text":"Convergence absolue $(\\sum_{}^{}|u_{n}|)$"},
+		{"id":"b6651cc8067a1a62","x":146,"y":556,"width":250,"height":60,"type":"text","text":"[[Nombres réels et suites#Suites adjacentes|Suites adjacentes]] $S_{2n}, \\; S_{2n+1}$"},
+		{"id":"b3189fe8061bdb1a","x":-1066,"y":-88,"width":250,"height":60,"type":"text","text":"Séries numériques"}
+	],
+	"edges":[
+		{"id":"db546a9816252372","fromNode":"e7933ae060ece90b","fromSide":"right","toNode":"a849098d05e2beba","toSide":"left"},
+		{"id":"17ae9dabd26a211c","fromNode":"e7933ae060ece90b","fromSide":"right","toNode":"46f9ec8ff1224edd","toSide":"left"},
+		{"id":"a1d46ba82c0bb131","fromNode":"e7933ae060ece90b","fromSide":"right","toNode":"4f8560ae53ed9ae2","toSide":"left"},
+		{"id":"231162da8ee5f504","fromNode":"a849098d05e2beba","fromSide":"right","toNode":"4b2f7168d98f2aa9","toSide":"left"},
+		{"id":"72992a788f411f59","fromNode":"a849098d05e2beba","fromSide":"right","toNode":"33ac2755257ceffc","toSide":"left"},
+		{"id":"a2195b890851194d","fromNode":"e7097f51edb8f50a","fromSide":"right","toNode":"c445c7c5e9d4b438","toSide":"left"},
+		{"id":"d42f5454b6d75e7d","fromNode":"e7097f51edb8f50a","fromSide":"right","toNode":"37e00e8b682d68e5","toSide":"left"},
+		{"id":"af24752a8af73b89","fromNode":"e7097f51edb8f50a","fromSide":"right","toNode":"2d359850c0de960e","toSide":"left"},
+		{"id":"2f654e12d2608c79","fromNode":"b3189fe8061bdb1a","fromSide":"right","toNode":"e7933ae060ece90b","toSide":"left"},
+		{"id":"74eede43b011a1c8","fromNode":"b3189fe8061bdb1a","fromSide":"right","toNode":"e7097f51edb8f50a","toSide":"left"},
+		{"id":"394f9cf24f09a524","fromNode":"37e00e8b682d68e5","fromSide":"right","toNode":"4057bb31f1d67841","toSide":"left"},
+		{"id":"c75146987b2b79d1","fromNode":"37e00e8b682d68e5","fromSide":"right","toNode":"f8ff337b84e76061","toSide":"left"},
+		{"id":"ce84f15c785a3f85","fromNode":"37e00e8b682d68e5","fromSide":"right","toNode":"552162f3b0d253e0","toSide":"left"},
+		{"id":"e776c37a544176e8","fromNode":"37e00e8b682d68e5","fromSide":"right","toNode":"9201092d2afc1425","toSide":"left"},
+		{"id":"5c9d79ceefb63058","fromNode":"2d359850c0de960e","fromSide":"right","toNode":"cb33e3a8e4f373d7","toSide":"left"},
+		{"id":"aa7c4a09986177e9","fromNode":"2d359850c0de960e","fromSide":"right","toNode":"b6651cc8067a1a62","toSide":"left"}
+	]
+}
