@@ -1,0 +1,14 @@
+#conception
+- Goupille : cylindre métallique destiné à être sollicité en cisaillement.
+- Rondelle
+- Douille à aiguilles
+- Coulisseau : pièce de guidage suivant une ligne.
+- Roulement à billes 
+- Etanchéité
+- Goupille élastique 
+- Pions de centrage 
+- Anneau élastique : de métal 
+- Joint torique 
+- Rondelle Grower
+- Joint plat
+- Entre toise
